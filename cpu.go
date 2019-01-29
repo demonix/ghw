@@ -38,6 +38,7 @@ type Processor struct {
 	ID           int
 	NumCores     uint32
 	NumThreads   uint32
+	Frequency    float64
 	Vendor       string
 	Model        string
 	Capabilities []string
